@@ -49,7 +49,7 @@ const Preview = styled(ReactMarkdown)`
 `;
 
 const Index = () => {
-  const [markdown, setMarkdown] = useState('## markdown preview');
+  const [markdown, setMarkdown] = useState('## Test Markdown');
 
   const handleChange = (e) => {
     setMarkdown(e.target.value);
